@@ -8,7 +8,7 @@ node_modules/
 .env.test.local
 .env.production.local
 
-# فایل‌های مربوط به logها
+# فایل‌های log
 logs
 *.log
 npm-debug.log*
@@ -38,6 +38,3 @@ test/coverage/
 # فایل‌های دیگر غیرضروری
 .DS_Store
 Thumbs.db
-Pods/OpenCV/opencv2.framework/Versions/A/opencv2 filter=lfs diff=lfs merge=lfs -text
-node_modules filter=lfs diff=lfs merge=lfs -text
-node_modules/.cache/default-development/*.pack filter=lfs diff=lfs merge=lfs -text
